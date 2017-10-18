@@ -5,7 +5,7 @@ contract CyberMilesToken is StandardToken {
     string public name = "CyberMilesToken";
     string public symbol = "CMT";
     uint public decimals = 18;
-    uint public INITIAL_SUPPLY = 100000000000000000000000000;
+    uint public INITIAL_SUPPLY = 10000000000000000000000000000;
 
     function CyberMilesToken() {
         totalSupply = INITIAL_SUPPLY;
